@@ -9,8 +9,8 @@ public class Starter {
 
 		WebAppContext context = new WebAppContext();
 		context.setContextPath("/catcenter");
-		context.setDescriptor("D:/workspace/catcenter/src/main/webapp/WEB-INF/web.xml");
-		context.setResourceBase("D:/workspace/catcenter/src/main/resources");
+		context.setDescriptor("src/main/webapp/WEB-INF/web.xml");
+		context.setResourceBase("src/main/webapp");
 		context.setParentLoaderPriority(true);
 		server.setHandler(context);
 
